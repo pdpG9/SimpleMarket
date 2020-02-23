@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:id="@+id/inputTextName"
+                android:layout_height="wrap_content"
+                android:hint="Name"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:inputType="number"
+                android:id="@+id/inputTextAge"
+                android:layout_height="wrap_content"
+                android:hint="Age"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <LinearLayout
+            android:layout_marginTop="5dp"
+            android:gravity="right"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="RtlHardcoded">
+        <Button
+                android:layout_width="wrap_content"
+                android:text="Cancel"
+                android:id="@+id/btCancel"
+                android:background="?android:selectableItemBackground"
+                android:layout_height="wrap_content"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:text="Ok"
+                android:id="@+id/btOk"
+                android:background="?android:selectableItemBackground"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>

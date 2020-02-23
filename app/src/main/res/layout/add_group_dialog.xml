@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:padding="16dp"
+              android:layout_height="wrap_content">
+
+    <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:id="@+id/inputTextTitle"
+                android:layout_height="wrap_content"
+                android:hint="Title"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <LinearLayout
+            android:layout_marginTop="5dp"
+            android:gravity="right"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <Button
+                android:layout_width="wrap_content"
+                android:text="Cancel"
+                android:id="@+id/btCancelGr"
+                android:background="?android:selectableItemBackground"
+                android:layout_height="wrap_content"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:text="Ok"
+                android:id="@+id/btOkGr"
+                android:background="?android:selectableItemBackground"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>
