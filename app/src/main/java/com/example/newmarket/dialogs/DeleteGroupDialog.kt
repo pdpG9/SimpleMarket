@@ -5,8 +5,10 @@ import android.util.Log
 import android.view.LayoutInflater
 import androidx.appcompat.app.AlertDialog
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.lesson32.Database.Database
 import com.example.newmarket.R
 import com.example.newmarket.adapters.DeleteDialogAdapter
+import com.example.newmarket.models.delete
 import kotlinx.android.synthetic.main.delete_dialog.view.*
 
 class DeleteGroupDialog(context: Context){

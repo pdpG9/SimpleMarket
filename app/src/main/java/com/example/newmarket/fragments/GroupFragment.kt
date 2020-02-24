@@ -25,7 +25,7 @@ class GroupFragment :Fragment(){
     private var listener:((Int, Action)->Unit)? = null
     private var addListener:(()->Unit)? = null
 
-   fun setOnClickListener(f:(()->Unit)?){
+   fun setOnAddClickListener(f:(()->Unit)?){
        addListener = f
    }
    fun setOnItemClickListener(f:((Int,Action)->Unit)?){
